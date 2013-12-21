@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE65BF521866498D00FB2247 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE65BF511866498D00FB2247 /* Foundation.framework */; };
+		EE65BF541866498D00FB2247 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE65BF531866498D00FB2247 /* CoreGraphics.framework */; };
+		EE65BF561866498D00FB2247 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE65BF551866498D00FB2247 /* UIKit.framework */; };
+		EE65BF5C1866498D00FB2247 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE65BF5A1866498D00FB2247 /* InfoPlist.strings */; };
+		EE65BF5E1866498D00FB2247 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE65BF5D1866498D00FB2247 /* main.m */; };
+		EE65BF621866498D00FB2247 /* SSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE65BF611866498D00FB2247 /* SSAppDelegate.m */; };
+		EE65BF651866498D00FB2247 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE65BF631866498D00FB2247 /* Main.storyboard */; };
+		EE65BF681866498D00FB2247 /* SSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE65BF671866498D00FB2247 /* SSViewController.m */; };
+		EE65BF6A1866498D00FB2247 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE65BF691866498D00FB2247 /* Images.xcassets */; };
+		EE65BF711866498D00FB2247 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE65BF701866498D00FB2247 /* XCTest.framework */; };
+		EE65BF721866498D00FB2247 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE65BF511866498D00FB2247 /* Foundation.framework */; };
+		EE65BF731866498D00FB2247 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE65BF551866498D00FB2247 /* UIKit.framework */; };
+		EE65BF7B1866498E00FB2247 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE65BF791866498E00FB2247 /* InfoPlist.strings */; };
+		EE65BF7D1866498E00FB2247 /* SnapshotsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE65BF7C1866498E00FB2247 /* SnapshotsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE65BF741866498D00FB2247 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE65BF461866498C00FB2247 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE65BF4D1866498C00FB2247;
+			remoteInfo = Snapshots;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE65BF4E1866498C00FB2247 /* Snapshots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapshots.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE65BF511866498D00FB2247 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE65BF531866498D00FB2247 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EE65BF551866498D00FB2247 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EE65BF591866498D00FB2247 /* Snapshots-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Snapshots-Info.plist"; sourceTree = "<group>"; };
+		EE65BF5B1866498D00FB2247 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE65BF5D1866498D00FB2247 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE65BF5F1866498D00FB2247 /* Snapshots-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Snapshots-Prefix.pch"; sourceTree = "<group>"; };
+		EE65BF601866498D00FB2247 /* SSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSAppDelegate.h; sourceTree = "<group>"; };
+		EE65BF611866498D00FB2247 /* SSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSAppDelegate.m; sourceTree = "<group>"; };
+		EE65BF641866498D00FB2247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE65BF661866498D00FB2247 /* SSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSViewController.h; sourceTree = "<group>"; };
+		EE65BF671866498D00FB2247 /* SSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSViewController.m; sourceTree = "<group>"; };
+		EE65BF691866498D00FB2247 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EE65BF6F1866498D00FB2247 /* SnapshotsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapshotsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE65BF701866498D00FB2247 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EE65BF781866498E00FB2247 /* SnapshotsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnapshotsTests-Info.plist"; sourceTree = "<group>"; };
+		EE65BF7A1866498E00FB2247 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE65BF7C1866498E00FB2247 /* SnapshotsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapshotsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE65BF4B1866498C00FB2247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE65BF541866498D00FB2247 /* CoreGraphics.framework in Frameworks */,
+				EE65BF561866498D00FB2247 /* UIKit.framework in Frameworks */,
+				EE65BF521866498D00FB2247 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE65BF6C1866498D00FB2247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE65BF711866498D00FB2247 /* XCTest.framework in Frameworks */,
+				EE65BF731866498D00FB2247 /* UIKit.framework in Frameworks */,
+				EE65BF721866498D00FB2247 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE65BF451866498C00FB2247 = {
+			isa = PBXGroup;
+			children = (
+				EE65BF571866498D00FB2247 /* Snapshots */,
+				EE65BF761866498D00FB2247 /* SnapshotsTests */,
+				EE65BF501866498C00FB2247 /* Frameworks */,
+				EE65BF4F1866498C00FB2247 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE65BF4F1866498C00FB2247 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE65BF4E1866498C00FB2247 /* Snapshots.app */,
+				EE65BF6F1866498D00FB2247 /* SnapshotsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE65BF501866498C00FB2247 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE65BF511866498D00FB2247 /* Foundation.framework */,
+				EE65BF531866498D00FB2247 /* CoreGraphics.framework */,
+				EE65BF551866498D00FB2247 /* UIKit.framework */,
+				EE65BF701866498D00FB2247 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE65BF571866498D00FB2247 /* Snapshots */ = {
+			isa = PBXGroup;
+			children = (
+				EE65BF601866498D00FB2247 /* SSAppDelegate.h */,
+				EE65BF611866498D00FB2247 /* SSAppDelegate.m */,
+				EE65BF631866498D00FB2247 /* Main.storyboard */,
+				EE65BF661866498D00FB2247 /* SSViewController.h */,
+				EE65BF671866498D00FB2247 /* SSViewController.m */,
+				EE65BF691866498D00FB2247 /* Images.xcassets */,
+				EE65BF581866498D00FB2247 /* Supporting Files */,
+			);
+			path = Snapshots;
+			sourceTree = "<group>";
+		};
+		EE65BF581866498D00FB2247 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE65BF591866498D00FB2247 /* Snapshots-Info.plist */,
+				EE65BF5A1866498D00FB2247 /* InfoPlist.strings */,
+				EE65BF5D1866498D00FB2247 /* main.m */,
+				EE65BF5F1866498D00FB2247 /* Snapshots-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE65BF761866498D00FB2247 /* SnapshotsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE65BF7C1866498E00FB2247 /* SnapshotsTests.m */,
+				EE65BF771866498E00FB2247 /* Supporting Files */,
+			);
+			path = SnapshotsTests;
+			sourceTree = "<group>";
+		};
+		EE65BF771866498E00FB2247 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE65BF781866498E00FB2247 /* SnapshotsTests-Info.plist */,
+				EE65BF791866498E00FB2247 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE65BF4D1866498C00FB2247 /* Snapshots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE65BF801866498E00FB2247 /* Build configuration list for PBXNativeTarget "Snapshots" */;
+			buildPhases = (
+				EE65BF4A1866498C00FB2247 /* Sources */,
+				EE65BF4B1866498C00FB2247 /* Frameworks */,
+				EE65BF4C1866498C00FB2247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Snapshots;
+			productName = Snapshots;
+			productReference = EE65BF4E1866498C00FB2247 /* Snapshots.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE65BF6E1866498D00FB2247 /* SnapshotsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE65BF831866498E00FB2247 /* Build configuration list for PBXNativeTarget "SnapshotsTests" */;
+			buildPhases = (
+				EE65BF6B1866498D00FB2247 /* Sources */,
+				EE65BF6C1866498D00FB2247 /* Frameworks */,
+				EE65BF6D1866498D00FB2247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE65BF751866498D00FB2247 /* PBXTargetDependency */,
+			);
+			name = SnapshotsTests;
+			productName = SnapshotsTests;
+			productReference = EE65BF6F1866498D00FB2247 /* SnapshotsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE65BF461866498C00FB2247 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Boiling Point Development";
+				TargetAttributes = {
+					EE65BF4D1866498C00FB2247 = {
+						DevelopmentTeam = 3K22YJAJ77;
+					};
+					EE65BF6E1866498D00FB2247 = {
+						TestTargetID = EE65BF4D1866498C00FB2247;
+					};
+				};
+			};
+			buildConfigurationList = EE65BF491866498C00FB2247 /* Build configuration list for PBXProject "Snapshots" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE65BF451866498C00FB2247;
+			productRefGroup = EE65BF4F1866498C00FB2247 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE65BF4D1866498C00FB2247 /* Snapshots */,
+				EE65BF6E1866498D00FB2247 /* SnapshotsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE65BF4C1866498C00FB2247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE65BF6A1866498D00FB2247 /* Images.xcassets in Resources */,
+				EE65BF5C1866498D00FB2247 /* InfoPlist.strings in Resources */,
+				EE65BF651866498D00FB2247 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE65BF6D1866498D00FB2247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE65BF7B1866498E00FB2247 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE65BF4A1866498C00FB2247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE65BF681866498D00FB2247 /* SSViewController.m in Sources */,
+				EE65BF621866498D00FB2247 /* SSAppDelegate.m in Sources */,
+				EE65BF5E1866498D00FB2247 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE65BF6B1866498D00FB2247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE65BF7D1866498E00FB2247 /* SnapshotsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE65BF751866498D00FB2247 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE65BF4D1866498C00FB2247 /* Snapshots */;
+			targetProxy = EE65BF741866498D00FB2247 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE65BF5A1866498D00FB2247 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE65BF5B1866498D00FB2247 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EE65BF631866498D00FB2247 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE65BF641866498D00FB2247 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE65BF791866498E00FB2247 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE65BF7A1866498E00FB2247 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE65BF7E1866498E00FB2247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE65BF7F1866498E00FB2247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE65BF811866498E00FB2247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Snapshots/Snapshots-Prefix.pch";
+				INFOPLIST_FILE = "Snapshots/Snapshots-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EE65BF821866498E00FB2247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Snapshots/Snapshots-Prefix.pch";
+				INFOPLIST_FILE = "Snapshots/Snapshots-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EE65BF841866498E00FB2247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Snapshots.app/Snapshots";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Snapshots/Snapshots-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SnapshotsTests/SnapshotsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EE65BF851866498E00FB2247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Snapshots.app/Snapshots";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Snapshots/Snapshots-Prefix.pch";
+				INFOPLIST_FILE = "SnapshotsTests/SnapshotsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE65BF491866498C00FB2247 /* Build configuration list for PBXProject "Snapshots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE65BF7E1866498E00FB2247 /* Debug */,
+				EE65BF7F1866498E00FB2247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE65BF801866498E00FB2247 /* Build configuration list for PBXNativeTarget "Snapshots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE65BF811866498E00FB2247 /* Debug */,
+				EE65BF821866498E00FB2247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE65BF831866498E00FB2247 /* Build configuration list for PBXNativeTarget "SnapshotsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE65BF841866498E00FB2247 /* Debug */,
+				EE65BF851866498E00FB2247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE65BF461866498C00FB2247 /* Project object */;
+}
